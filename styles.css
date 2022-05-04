@@ -226,6 +226,7 @@ header {
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -270,3 +271,15 @@ header {
     padding-right: 8px;
     color: #bfbfbf
 }
+
+/* EXPLORE */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.explore__container {
+    display: flex;
+    justify-content: center;
+}
+
